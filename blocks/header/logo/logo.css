@@ -4,4 +4,12 @@
     background-image: url(../../../images/logo.svg);
     background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 320px) and (max-width: 829px) {
+    .logo {
+        width: 104px;
+        height: 24px;
+    }
 }
