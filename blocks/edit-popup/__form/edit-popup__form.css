@@ -1,0 +1,19 @@
+.edit-popup__form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 430px;
+    z-index: 20;
+    transform: translate(-50%, -50%);/*выравнивает по центру после смещения от позиционирования*/
+    background-color: white;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 35px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 829px) {
+    .edit-popup__form {
+        width: 100%;
+        padding: 25px;
+    }
+}

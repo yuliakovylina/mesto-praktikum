@@ -1,6 +1,7 @@
 .body {
     background-color: #000000;
     padding: 45px 15% 60px;
+    box-sizing: border-box;
     font-family: Inter, Arial,  sans-serif;
 }
 

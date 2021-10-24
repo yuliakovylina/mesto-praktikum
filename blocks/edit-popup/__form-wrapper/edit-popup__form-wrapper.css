@@ -1,0 +1,15 @@
+.edit-popup__form-wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 430px;
+    height: 330px;
+    z-index: 20;
+    transform: translate(-50%, -50%);/*выравнивает по центру после смещения от позиционирования*/
+}
+@media screen and (max-width: 829px) {
+    .edit-popup__form-wrapper {
+        width: 282px;
+        height: 322px;
+    }
+}
