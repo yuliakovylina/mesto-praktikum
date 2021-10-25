@@ -1,7 +1,15 @@
+@import  url('./like-button_active.css');
 .like-button {
     width: 22px;
     height: 19px;
     background: url("../../../../../images/like-button.svg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
+}
+
+.like-button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.5s linear;
 }

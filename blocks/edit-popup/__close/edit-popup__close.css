@@ -8,6 +8,13 @@
     width: 32px;
     height: 32px;
 }
+
+.edit-popup__close:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.5s linear;
+}
+
 @media screen and (max-width: 829px) {
     .edit-popup__close {
         position: fixed;

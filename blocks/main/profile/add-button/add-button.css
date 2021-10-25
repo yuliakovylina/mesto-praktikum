@@ -6,6 +6,11 @@
     margin: 0 auto;
     margin-right: 0;
 }
+.add-button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.5s linear;
+}
 
 @media screen and (max-width: 1258px) {
     .add-button {
