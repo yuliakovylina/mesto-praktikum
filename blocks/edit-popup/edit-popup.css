@@ -1,3 +1,4 @@
+@import url('./edit-popup_opened.css');
 @import url('./__overlay/edit-popup__overlay.css');
 @import url('./__form-wrapper/edit-popup__form-wrapper.css');
 @import url('./__form/edit-popup__form.css');
@@ -6,6 +7,7 @@
 @import url('./__input/edit-popup__input.css');
 @import url('./__close/edit-popup__close.css');
 @import url('./__submit/edit-popup__submit.css');
+
 .edit-popup {
     position: fixed;
     top: 0;
